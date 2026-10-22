@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated artifacts (rebuild them with the cleaning pipeline).
+# The cleaned CSV is a deliverable and is intentionally NOT ignored.
+output/*.db
+output/models/
+output/*.pkl
+
+# Streamlit local settings
+.streamlit/secrets.toml
+
+# Operating system
+Thumbs.db
+.DS_Store

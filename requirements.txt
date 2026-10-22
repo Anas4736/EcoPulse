@@ -1,0 +1,21 @@
+# EcoPulse - Air Quality Monitoring and Data Analysis System
+# Pinned to the exact versions verified working on this machine
+# (Python 3.13.2, Windows 11). Install with:  pip install -r requirements.txt
+
+# --- Dashboard -------------------------------------------------------------
+streamlit==1.66.0
+
+# --- Data handling ---------------------------------------------------------
+pandas==3.0.6
+numpy==2.5.4
+openpyxl==3.1.5          # required to read the original AirQualityUCI.xlsx
+
+# --- Visualisation ---------------------------------------------------------
+plotly==7.1.0
+
+# --- Machine learning & statistics -----------------------------------------
+scikit-learn==1.9.1
+scipy==1.18.1
+
+# --- Testing (development) -------------------------------------------------
+pytest==9.1.1
