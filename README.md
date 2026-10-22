@@ -2,10 +2,6 @@
 
 EcoPulse is an interactive web application developed using Python and Streamlit to analyse historical air-quality data. The project focuses on data cleaning, exploratory data analysis, pollutant relationships, sensor drift, anomaly detection, and machine-learning-based benzene estimation.
 
-**Live Demo:** https://ecopulse-3zmursrcnshm59k2f5chqn.streamlit.app/
-
-**GitHub Repository:** https://github.com/Anas4736/EcoPulse
-
 **Important:** This project analyses historical measurements recorded between March 2004 and April 2005. It is not a real-time air-quality monitoring system and does not provide live readings or future pollution forecasts.
 
 ## 1. Project Overview
